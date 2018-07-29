@@ -30,7 +30,7 @@ end
 
 def room_id
   yaml = YAML.load_file("./setting.yml")
-  yaml["myself"]
+  yaml["room_id"]["myself"]
 end
 
 post_chatwork_api
